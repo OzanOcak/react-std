@@ -1,7 +1,9 @@
-export const Header = () => {
+const Header = ({ title }) => {
   return (
     <header>
-      <h2>Todo List</h2>
+      <h2>{title}</h2>
     </header>
   );
 };
+
+export default Header;
